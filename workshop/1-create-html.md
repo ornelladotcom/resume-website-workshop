@@ -8,24 +8,16 @@ We will begin creating our resume by creating an HTML file and adding the code. 
 
 ## Create the HTML and CSS files with CodeSwing
 
-We will use CodeSwing to create and edit our HTML and CSS in Visual Studio Code. CodeSwing has a variety of templates you can use, and includes support for advanced pages as well. Let's start by creating our first "swing" and using the core HTML/CSS/JavaScript template.
+We will use CodeSwing to create and edit our HTML and CSS in Visual Studio Code. CodeSwing has a variety of templates you can use, and includes support for advanced pages as well. Let's start by creating our first "swing" and using the Basic HTML template.
 
-1. Create a folder on your desktop, or another location, to store your files
-1. In Visual Studio Code, select **File** > **Open Folder**
-1. Navigate to the folder you created and select **Select Folder**
 1. Open the command pallette by using **Ctl - Shift - P** (or **Cmd - Shift - P** on a Mac)
 1. Type **CodeSwing**
-1. Select **CodeSwing: New Swing in Directory..**
+1. Select **CodeSwing: Initialize workspace as Swing**
 1. Select **OK**
-1. Select **Basic: HTML/CSS/JavaScript**
-1. Your new swing appears, with three files open on the left (HTML, CSS and JavaScript), and a browser window on the right
+1. Select **Basic: HTML-only**
+1. Your new swing appears, with an index.html file open on the left, and a browser window on the right
 
-    ![A screenshot of CodeSwing with index.html, style.css, and script.js on the left, and a browser window on the right](./media/swing.png)
-
-1. Notice how three files were created - **index.html**, **style.css** and **script.js**
-1. Select the **x** next to **script.js** to close the JavaScript window as we won't be using JavaScript in this workshop
-
-> **IMPORTANT** If you accidentally close the wrong windows, you re-open CodeSwing by returning to Visual Studio Code, open the command pallette with **Ctl - Shift - P** (or **Cmd - Shift - P** on a Mac), typing **CodeSwing**, selecting **CodeSwing: Open Swing...**, and selecting the directory with your files.
+> **IMPORTANT** If you accidentally close the wrong windows, you re-open CodeSwing with **Ctl - Shift - P** (or **Cmd - Shift - P** on a Mac), typing **CodeSwing**, selecting **CodeSwing: Open Swing...**, and selecting the directory with your files.
 
 You now have the files created for your resume site!
 
@@ -45,35 +37,47 @@ We're going to use these three tags (and a couple of others) to begin the creati
 
     ```html
     <html>
-    <head>
-        <title>Your Name resume</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <main>
-            <article>
-                <section>
-                    <h1>Your Name</h1>
-                    <!-- email address -->
-                </section>
-                <section>
-                    <h2>Social media</h2>
-                    <!-- social media -->
-                </section>
-            </article>
-            <article>
-                <section>
-                    <h2>Education</h2>
-                    <!-- education -->
-                </section>
-                <section>
-                    <h2>Experience</h2>
-                    <!-- experience -->
-                </section>
-            </article>
-        </main>
-    </body>
-    </html>
+			<head>
+				<title>Your Name resume</title>
+			</head>
+
+			<body>
+				<header id="header">
+					<!-- resume header with your name and title -->
+					<h1><b>YOUR</b> NAME</h1>
+					<hr>
+					YOUR TITLE (EX: SOFTWARE ENGINEERING STUDENT)
+					<hr>
+				</header>
+				<main>
+					<article id="mainLeft">
+						<!-- contact info including social media -->
+						<section>
+							<h2>CONTACT</h2>
+						</section>
+						<section>
+							<h2>SKILLS</h2>
+							<!-- your skills AKA "buzzwords" -->
+						</section>
+						<section>
+								<h2>EDUCATION</h2>
+								<!-- your education -->
+						</section>            
+					</article>
+					<article id="mainRight">
+						<section>
+							<h2>ABOUT</h2>
+								<!-- about you -->
+								<p>A brief paragraph about you and what kind of job/company you are looking to work for.</p>
+						</section>
+						<section>
+							<h2>WORK EXPERIENCE</h2>
+								<!-- your work experience -->
+						</section>
+					</article>
+				</main>
+			</body>
+		</html>
     ```
 
 1. Notice how as you type (or copy and paste) the browser window on the right automatically updates with the information you've added, displaying **Your Name** and **Experience**
@@ -88,11 +92,13 @@ We used several tags to display our page. Below is a table talking about each ta
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `html`                       | Container for all HTML in an HTML page.                                                                                                                                                                          |
 | `head`                       | Contains metadata, or information about the page.                                                                                                                                                                |
-| `link`                       | Used to tell the page what CSS stylesheet to use. `rel="stylesheet"` indicates we are using a stylesheet, and `href="style.css"` loads **style.css** (which is the name of the stylesheet created by CodeSwing). |
 | `title`                      | Indicates the title of the page to display on the toolbar. This is **not** displayed on the page itself. Every page you create should have a title.                                                              |
 | `body`                       | The contents of the page to be displayed to the user.                                                                                                                                                            |
 | `main`, `article`, `section` | These are "semantic" tags. See the note below for more information.                                                                                                                                              |
 | `h1`                         | A level 1 header. Header tags go from `h1` to `h6`, with `h1` being the highest level, to `h6` being the lowest level. These are used to create structure for the outline of the page. |
+| `p` | A paragraph tag. Paragraph tags are where the body text of your page goes.
+| `b` | Makes text appear bold.
+| `hr` | Creates a horizontal line. The tag stands for "horizontal rule".
 | `<!-- comment -->` | These are HTML comments. They are useful for making notes or setting reminders to yourself.
 
 > **Note:** Comments are a great way to take notes as you're learning HTML. You can put a comment right above a section of code, and describe what the section does. But do remember comments **are not** secure, so don't store sensitive information in comments.
