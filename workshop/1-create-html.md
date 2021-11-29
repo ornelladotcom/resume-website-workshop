@@ -34,36 +34,49 @@ We're going to use these three tags (and a couple of others) to begin the creati
 1. Inside the **index.html** window, add the following code to create the initial structure of your page, replacing **Your Name** with your name:
 
     ```html
-    <html>
-    <head>
-        <link href="style.css" rel="stylesheet">
-        <title>Your Name resume</title>
-    </head>
-    <body>
-        <main>
-            <article>
-                <section>
-                    <h1>Your Name</h1>
-                    <!-- email address -->
-                </section>
-                <section>
-                    <h2>Social media</h2>
-                    <!-- social media -->
-                </section>
-            </article>
-            <article>
-                <section>
-                    <h2>Education</h2>
-                    <!-- education -->
-                </section>
-                <section>
-                    <h2>Experience</h2>
-                    <!-- experience -->
-                </section>
-            </article>
-        </main>
-    </body>
-    </html>
+	<html>
+		<head>
+			<link href="style.css" rel="stylesheet">
+			<title>Your Name resume</title>
+		</head>
+
+		<body>
+			<header id="header">
+				<!-- resume header with your name and title -->
+				<h1><b>YOUR</b> NAME</h1>
+				<hr>
+				YOUR TITLE (EX: SOFTWARE ENGINEERING STUDENT)
+				<hr>
+			</header>
+			<main>
+				<article id="mainLeft">
+					<section>
+						<h2>CONTACT</h2>
+						<!-- contact info including social media -->
+					</section>
+					<section>
+						<h2>SKILLS</h2>
+						<!-- your skills AKA "buzzwords" -->
+					</section>
+					<section>
+						<h2>EDUCATION</h2>
+						<!-- your education -->
+					</section>            
+				</article>
+				<article id="mainRight">
+					<section>
+						<h2>ABOUT</h2>
+						<!-- about you -->
+						<p>A brief paragraph about you and what kind of company you want to work for.</p>
+					</section>
+					<section>
+						<h2>WORK EXPERIENCE</h2>
+						<!-- your work experience -->
+					</section>
+				</article>
+			</main>
+		</body>
+	</html>
     ```
 
 1. Notice how as you type (or copy and paste) the browser window on the right automatically updates with the information you've added.
@@ -83,6 +96,9 @@ We used several tags to display our page. Below is a table talking about each ta
 | `body`                       | The contents of the page to be displayed to the user.                                                                                                                                                            |
 | `main`, `article`, `section` | These are "semantic" tags. See the note below for more information.                                                                                                                                              |
 | `h1`                         | A level 1 header. Header tags go from `h1` to `h6`, with `h1` being the highest level, to `h6` being the lowest level. These are used to create structure for the outline of the page. |
+| `p` | A paragraph tag. Paragraph tags are where the body text of your page goes.
+| `b` | Makes text appear bold.
+| `hr` | Creates a horizontal line. The tag stands for "horizontal rule".
 | `<!-- comment -->` | These are HTML comments. They are useful for making notes or setting reminders to yourself.
 
 > **Note:** Comments are a great way to take notes as you're learning HTML. You can put a comment right above a section of code, and describe what the section does. But do remember comments **are not** secure, so don't store sensitive information in comments.
