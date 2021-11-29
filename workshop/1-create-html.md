@@ -6,28 +6,18 @@ HTML consists of what are called "tags" or "elements". While there is a technica
 
 We will begin creating our resume by creating an HTML file and adding the code. You may notice the page won't appear to be very structured or robust; we will make it look better when we add our CSS.
 
-## Create the HTML and CSS files with CodeSwing
+## Create an HTML file with CodeSwing
 
-We will use CodeSwing to create and edit our HTML and CSS in Visual Studio Code. CodeSwing has a variety of templates you can use, and includes support for advanced pages as well. Let's start by creating our first "swing" and using the core HTML/CSS/JavaScript template.
+We will use CodeSwing to create and edit our HTML and CSS in Visual Studio Code. CodeSwing has a variety of templates you can use, and includes support for advanced pages as well. Let's start by creating our first "swing" and using the core HTML template.
 
-1. Create a folder on your desktop, or another location, to store your files
-1. In Visual Studio Code, select **File** > **Open Folder**
-1. Navigate to the folder you created and select **Select Folder**
-1. Open the command pallette by using **Ctl - Shift - P** (or **Cmd - Shift - P** on a Mac)
-1. Type **CodeSwing**
-1. Select **CodeSwing: New Swing in Directory..**
-1. Select **OK**
-1. Select **Basic: HTML/CSS/JavaScript**
-1. Your new swing appears, with three files open on the left (HTML, CSS and JavaScript), and a browser window on the right
+1. Open the **Command Palette** by selecting the three parallel lines icon in the left-hand side Activity Bar, then navigating to **View > Command Palette**. You can also quickly open the Command Palette by using the keyboard shortcut **Control+Shift+P** on a PC, or **Command+Shift+P** on a Mac.
+4. Type **CodeSwing**, select **CodeSwing: Initialize Workspace as Swing..**.
+5. Choose the option for **Basic: HTML-Only** and your new swing will appear, with your HTML file on the left, and a browser window on the right.
+1. This will create an **index.html** file in your root directory.
 
-    ![A screenshot of CodeSwing with index.html, style.css, and script.js on the left, and a browser window on the right](./media/swing.png)
+> **IMPORTANT** If you accidentally close the wrong windows, you can re-open CodeSwing by navigating to your repository in github.dev, opening the Command Palette with **Control+Shift+P** (or **Command+Shift+P** on a Mac), typing **CodeSwing**, selecting **CodeSwing: Open Swing...**, and selecting the directory with your files.
 
-1. Notice how three files were created - **index.html**, **style.css** and **script.js**
-1. Select the **x** next to **script.js** to close the JavaScript window as we won't be using JavaScript in this workshop
-
-> **IMPORTANT** If you accidentally close the wrong windows, you re-open CodeSwing by returning to Visual Studio Code, open the command pallette with **Ctl - Shift - P** (or **Cmd - Shift - P** on a Mac), typing **CodeSwing**, selecting **CodeSwing: Open Swing...**, and selecting the directory with your files.
-
-You now have the files created for your resume site!
+You now have the HTML file created for your resume site!
 
 ## Create the HTML structure
 
@@ -46,8 +36,8 @@ We're going to use these three tags (and a couple of others) to begin the creati
     ```html
     <html>
     <head>
+        <link href="style.css" rel="stylesheet">
         <title>Your Name resume</title>
-        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <main>
@@ -76,9 +66,9 @@ We're going to use these three tags (and a couple of others) to begin the creati
     </html>
     ```
 
-1. Notice how as you type (or copy and paste) the browser window on the right automatically updates with the information you've added, displaying **Your Name** and **Experience**
+1. Notice how as you type (or copy and paste) the browser window on the right automatically updates with the information you've added.
 
-    > **IMPORTANT** Don't forget to replace **Your Name** with your name.
+    > **IMPORTANT** Don't forget to replace **Your Name** with your name in the **index.html** file.
 
 ### Exploring the code
 

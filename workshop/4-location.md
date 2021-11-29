@@ -25,7 +25,6 @@ We want to create two columns, one for the first `article` with the name and soc
 
 ![Screenshot of updated page with two columns, one for your name and social media, the other with Education and Experience](./media/columns.png)
 
-1. Return to Visual Studio Code
 1. At the bottom of **style.css**, add the following CSS to create the grid
 
     ```css
@@ -49,7 +48,6 @@ In this diagram the content is the text **Hello, world**. `padding` is the space
 
 If you look at where the header and lists are on the page, you will notice there's a significant amount of space between them. This is controlled by the `margin`. We can reduce this by updating the `margin` property of the elements. Let's update the CSS to reduce the spacing between the header elements and the lists.
 
-1. Return to Visual Studio Code
 1. At the bottom of **style.css**, add the following CSS to update the `margin` for the header elements
 
     ```css
@@ -67,7 +65,6 @@ If you look at where the header and lists are on the page, you will notice there
 
 The last thing we want to do is create some visual separation between the core sections of the page - our `article` and `section` elements. We can do this by setting a border. While every element always has a border, almost all of them don't display it by default. We can use CSS to add in a border, and use `border-radius` to create a rounded corner. You'll also set the `margin` and `padding` to create a bit of spacing between the border and the content and other elements.
 
-1. Return to Visual Studio Code
 1. At the bottom of **style.css**, add the following CSS to add borders and manage spacing
 
     ```css
@@ -80,11 +77,7 @@ The last thing we want to do is create some visual separation between the core s
     }
     ```
 
-1. Save all files by selecting **File** > **Save all**
 1. The page updates with the final result
 
 ![Screenshot of the final page](./media/final-result.png)
 
-## Summary
-
-Congratulations! You have successfully created a resume page using HTML and CSS! You can continue to grow your web development skills by modifying this page, or exploring [content on Microsoft Learn](https://docs.microsoft.com/learn/paths/web-development-101/).

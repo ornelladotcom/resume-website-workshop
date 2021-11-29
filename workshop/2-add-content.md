@@ -6,7 +6,6 @@
 
 Let's start by creating a link to your email address and any social media you wish to share on your resume. You'll use the `a` tag, which stands for "anchor". `a` has one attribute named `href` (short for hypertext reference). `href` will contain the address you want the link to point to. When a user selects the link, they will be taken to the page. If you want to create a link to an email address, you will use `mailto:` in front of the address; this will open the user's email client.
 
-1. Return to Visual Studio Code
 1. Inside **index.html**, and below the comment which reads `<!-- email address -->`, add the following HTML to add a link to your email, replacing **your-email@example.com** with your email address:
 
     ```html
@@ -23,7 +22,6 @@ Lists come in two varieties in HTML - ordered (with numbers or letters) and unor
 
 You can add as many (or as few) social media links as you like, modifying the text as appropriate. The example below uses GitHub, LinkedIn and Twitter. Notice how it is possible to nest one tag inside another to create the display you wish.
 
-1. Return to Visual Studio Code
 1. Inside **index.html**, below the comment which reads `<!-- social media -->`, add the following HTML to create the list:
 
     ```html
@@ -40,7 +38,6 @@ You can add as many (or as few) social media links as you like, modifying the te
 
 Let's close the last section of the page with our education and experience. Just as before, you can update the information to keep it about you and your background.
 
-1. Return to Visual Studio Code
 1. Inside **index.html**, below the comment which reads `<!-- education -->`, add the following HTML for your education information:
 
     ```html
@@ -73,7 +70,6 @@ Let's close the last section of the page with our education and experience. Just
     ```
 
 1. The window updates with your new information
-1. Save all the files by selecting **File** > **Save all**
 
 ## Summary and next steps
 

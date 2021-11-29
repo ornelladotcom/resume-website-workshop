@@ -1,6 +1,6 @@
 # Adding style to a page
 
-As you've seen, [HTML is used to structure the content](./2-add-content.md) of a page. CSS, or Cascading Stylesheets, is used to provide style. CSS is used to set colors and fonts, where on a page information should be displayed, and other decorative items. By keeping HTML and CSS focused on these concerns (sometimes called separation of concerns), you create pages which are easier to modify and maintain, and become more accessible to all users.
+As we explored in the beginning of the workshop, [HTML is used to structure the content](./2-add-content.md) of a page. CSS, or Cascading Stylesheets, is used to provide style. CSS is used to set colors and fonts, where on a page information should be displayed, and other decorative items. By keeping HTML and CSS focused on these concerns (sometimes called separation of concerns), you create pages which are easier to modify and maintain, and become more accessible to all users.
 
 ## Introducing selectors
 
@@ -12,9 +12,9 @@ When using a tag name for a selector, you use just the name of the tag. Keep in 
 
 ## Adding style to a page
 
-Let's start by adding style to the page. We'll set a couple of properties for the `body` tag to change the font and size.
+Let's start by creating a CSS file to hold our code, so we can add style to the page. Then, we'll set a couple of properties for the `body` tag to change the font and size.
 
-1. Return to Visual Studio Code
+1. Hover over the name of your repository, **resume**, in the Explorer pane on the left-hand side of your screen, then select the **File with +** icon. Name the file **style.css**.
 1. Inside **style.css**, add the following CSS to choose the font and size
 
     ```css
@@ -34,7 +34,6 @@ For our example we'll use `rem`. `rem` indicates the size of the font at the roo
 
 Let's set the size for our different header elements.
 
-1. Return to Visual Studio Code
 1. At the bottom of **style.css**, add the following to set the size for the `h1` - `h4` tags
 
     ```css
@@ -56,7 +55,6 @@ Let's set the size for our different header elements.
     ```
 
 1. The page updates with the new sizes
-1. Save all files by selecting **File** > **Save all**
 
 ## Summary and next steps
 
