@@ -19,12 +19,20 @@ Let's start by creating a CSS file to hold our code, so we can add style to the 
 
     ```css
     body {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        max-width: 960px;
+        margin: auto;
     }
     ```
 
-Notice `font-family`, which is used to select the font. There are three fonts listed. Because users may not have a particular font installed, CSS offers the ability to fallback to the next font. In this case you're telling the browser to try Arial first, then Helvetica if that's not installed, and finally any sans-serif font.
+Notice `font-family`, which is used to select the font. There are five fonts listed. Because users may not have a particular font installed, CSS offers the ability to fallback to the next font. In this case you're telling the browser to try Arial first, then Helvetica if that's not installed, and finally any sans-serif font.
+
+There are also a few more rules that apply to everything in the `body` tag, which is the whole page...
+
+* font-size - sets the size of the font to 12 pixels
+* max-width - sets a maximum width for your resume so that it doesn't look silly on huge screens. 960 pixels is a common width for many websites.
+* margin - sets the margin to auto. When combined with the `max-width` property, this centers the content on the screen horizontally.
 
 ## Sizing
 

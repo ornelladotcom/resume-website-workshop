@@ -94,7 +94,7 @@ We used several tags to display our page. Below is a table talking about each ta
 | `link`                       | Used to tell the page what CSS stylesheet to use. `rel="stylesheet"` indicates we are using a stylesheet, and `href="style.css"` loads **style.css** (which is the name of the stylesheet created by CodeSwing). |
 | `title`                      | Indicates the title of the page to display on the toolbar. This is **not** displayed on the page itself. Every page you create should have a title.                                                              |
 | `body`                       | The contents of the page to be displayed to the user.                                                                                                                                                            |
-| `main`, `article`, `section` | These are "semantic" tags. See the note below for more information.                                                                                                                                              |
+| `header`, `main`, `article`, `section` | These are "semantic" tags. See the note below for more information.                                                                                                                                              |
 | `h1`                         | A level 1 header. Header tags go from `h1` to `h6`, with `h1` being the highest level, to `h6` being the lowest level. These are used to create structure for the outline of the page. |
 | `p` | A paragraph tag. Paragraph tags are where the body text of your page goes.
 | `b` | Makes text appear bold.
@@ -105,10 +105,11 @@ We used several tags to display our page. Below is a table talking about each ta
 
 #### Semantic tags
 
-Semantic tags are a relatively new addition to HTML. You may notice on the page there is a difference in size between `h1` and `h2`. This is because besides just indicating a level, header tags also modify how content is displayed. Semantic tags such as `main`, `article` and `section` are only used to group information together. The main advantage is the ability to structure a large HTML document, and later use CSS to control how the content will actually get displayed.
+Semantic tags are a relatively new addition to HTML. You may notice on the page there is a difference in size between `h1` and `h2`. This is because besides just indicating a level, header tags also modify how content is displayed. Semantic tags such as `header`, `main`, `article` and `section` are only used to group information together. The main advantage is the ability to structure a large HTML document, and later use CSS to control how the content will actually get displayed.
 
 You can use semantic tags however you wish, but a common hierarchy is:
 
+- `header`
 - `main`
     - `article`
         - `section`
