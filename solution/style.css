@@ -5,11 +5,6 @@ body {
     margin: auto;
 }
 
-header {
-    text-align: center;
-    margin: auto 2em;
-}
-
 h1 {
     font-size: 3em;
     letter-spacing: .6em;
@@ -17,22 +12,30 @@ h1 {
     padding-bottom: 1em;
 }
 
-section {
-    margin: auto 1em 4em 2em;
-}
-
 h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+}
+
+header {
+    text-align: center;
+    margin: auto 2em;
+}
+
+section {
+    margin: auto 1em 4em 2em;
 }
 
 i {
     margin-right: .5em;
 }
 
-#mainLeft {
-    border-right: 1px solid lightgray;
-}
 
 p {
     margin: .2em auto
@@ -44,22 +47,11 @@ hr {
     height: 1px;
 }
 
-h3 {
-    font-size: 1em;
-    font-weight: bold;
-}
-
-h4 {
-    font-size: 1em;
-}
-
-main { 
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 3em;
-}
-
-h1, h2, h3, h4, ul {
+h1, h2 {
     font-weight: 100;
     margin-bottom: 0;
+}
+
+#mainLeft {
+    border-right: 1px solid lightgray;
 }
