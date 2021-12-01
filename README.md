@@ -13,6 +13,6 @@ In this workshop, you will:
 * [Learn basic HTML to outline your resume](workshop/1-create-html.md)
 * [Fill in your resume content](workshop/2-add-content.md)
 * [Style your resume with CSS](workshop/3-add-style.md)
-* [Create your resume website with GitHub Pages](4-creating-website.md)
+* [Create your resume website with GitHub Pages](workshop/4-creating-website.md)
 
 Let's get started!
