@@ -31,7 +31,7 @@ Most tags have an open (`<tag>`) and a close (`</tag>`), and contain information
 
 We're going to use these three tags (and a couple of others) to begin the creation of our resume. We'll explain the tags we're using after we create the page.
 
-1. Inside the **index.html** window, add the following code to create the initial structure of your page, replacing **Your Name** with your name:
+1. Inside the **index.html** window, add the following code to create the initial structure of your page, replacing **Your Name** in the `<title>` tag with your name:
 
     ```html
 	<html>
@@ -67,7 +67,6 @@ We're going to use these three tags (and a couple of others) to begin the creati
 					<section>
 						<h2>ABOUT</h2>
 						<!-- about you -->
-						<p>A brief paragraph about you and what kind of company you want to work for.</p>
 					</section>
 					<section>
 						<h2>WORK EXPERIENCE</h2>
@@ -81,8 +80,6 @@ We're going to use these three tags (and a couple of others) to begin the creati
 
 1. Notice how as you type (or copy and paste) the browser window on the right automatically updates with the information you've added.
 
-    > **IMPORTANT** Don't forget to replace **Your Name** with your name in the **index.html** file.
-
 ### Exploring the code
 
 We used several tags to display our page. Below is a table talking about each tag and what they mean. As you look at the code, notice the HTML is in all lower case letters, and the use of tabs to create an outline for the code. While this isn't required, it does make your HTML much more readable.
@@ -91,14 +88,15 @@ We used several tags to display our page. Below is a table talking about each ta
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `html`                       | Container for all HTML in an HTML page.                                                                                                                                                                          |
 | `head`                       | Contains metadata, or information about the page.                                                                                                                                                                |
-| `link`                       | Used to tell the page what CSS stylesheet to use. `rel="stylesheet"` indicates we are using a stylesheet, and `href="style.css"` loads **style.css** (which is the name of the stylesheet created by CodeSwing). |
+| `link`                       | Used to tell the page what CSS stylesheet to use. `rel="stylesheet"` indicates we are using a stylesheet, and `href="style.css"` loads **style.css** (which is the name of the stylesheet we'll create in the CSS section of the workshop). |
 | `title`                      | Indicates the title of the page to display on the toolbar. This is **not** displayed on the page itself. Every page you create should have a title.                                                              |
 | `body`                       | The contents of the page to be displayed to the user.                                                                                                                                                            |
-| `header`, `main`, `article`, `section` | These are "semantic" tags. See the note below for more information.                                                                                                                                              |
+| `header`, `main`, `article`, `section` | These are "semantic" tags. See the description below for more information.                                                                                                                                              |
 | `h1`                         | A level 1 header. Header tags go from `h1` to `h6`, with `h1` being the highest level, to `h6` being the lowest level. These are used to create structure for the outline of the page. |
 | `p` | A paragraph tag. Paragraph tags are where the body text of your page goes.
 | `b` | Makes text appear bold.
 | `hr` | Creates a horizontal line. The tag stands for "horizontal rule".
+| `id` | `id` is an attribute that allows you to assign a unique id for an HTML element. This will come in handy when we style the HTML. 
 | `<!-- comment -->` | These are HTML comments. They are useful for making notes or setting reminders to yourself.
 
 > **Note:** Comments are a great way to take notes as you're learning HTML. You can put a comment right above a section of code, and describe what the section does. But do remember comments **are not** secure, so don't store sensitive information in comments.
@@ -116,4 +114,4 @@ You can use semantic tags however you wish, but a common hierarchy is:
 
 ## Summary and next steps
 
-You've now created your first HTML page! Next, let's [add additional content](./2-add-content.md) such as your email address and sections for your experience..
+You've now created your first HTML page! Next, let's [add additional content](./2-add-content.md) such as your email address and sections for your experience.
