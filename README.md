@@ -1,7 +1,6 @@
-# resume-website-workshop
+# Create a resume website in the Browser using HTML, CSS, github.dev, and GitHub Pages
 
-* Intro to HTML
-* Linking stylesheets and font icons
-* Adding images
-* VS Code editing fundamentals
-* GitHub fundamentals
+* Set up your coding environment
+* Add your resume content in HTML
+* Style your resume with CSS
+* Create your resume website with GitHub Pages
