@@ -1,59 +1,76 @@
 <html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title>Your name resume</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	</head>
 
-<head>
-    <title>Your Name resume</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <main>
-        <article>
-            <section>
-                <h1>Your Name</h1>
-                <!-- email address -->
-                <a href="mailto:your-email@example.com">your-email@example.com</a>
-            </section>
-            <section>
-                <h2>Social media</h2>
-                <!-- social media -->
-                <ul>
-                    <li><a href="https://github.com/your_handle>">GitHub</a></li>
-                    <li><a href="https://linkedin.com/in/your_handle>">LinkedIn</a></li>
-                    <li><a href="https://twitter.com/your_handle>">Twitter</a></li>
-                </ul>
-            </section>
-        </article>
-        <article>
-            <section>
-                <h2>Education</h2>
-                <!-- education -->
-                <h3>School name</h3>
-                <h4>Major</h4>
-                <ul>
-                    <li>GPA: 4.0</li>
-                    <li>Years attended</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Experience</h2>
-                <h3>Company name</h3>
-                <h4>Title</h4>
-                <h4>Dates</h4>
-                <ul>
-                    <li>Cool accomplishment</li>
-                    <li>Cool accomplishment</li>
-                </ul>
-
-                <h3>Cool hackathon</h3>
-                <h4>Project title</h4>
-                <h4>Dates</h4>
-                <ul>
-                    <li>Cool accomplishment</li>
-                    <li>Cool accomplishment</li>
-                </ul>
-            </section>
-        </article>
-    </main>
-</body>
-
+	<body>
+		<header id="header">
+			<!-- resume header with your name and title -->
+			<h1><b>YOUR</b> NAME</h1>
+			<hr>
+			YOUR TITLE
+			<hr>
+		</header>
+		<main>
+			<article id="mainLeft">
+				<section>
+					<h2>CONTACT</h2>
+					<!-- contact info including social media -->
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:your-email@example.com">your-email@example.com</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <a href="github.com/gh-username">gh-username</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <a href="linkedin.com/linkedin-username">linkedin-username</a>
+                    </p>
+				</section>
+				<section>
+					<h2>SKILLS</h2>
+					<!-- your skills AKA "buzzwords" -->
+                    <p>HTML, CSS, GitHub, VS Code...</p>
+				</section>
+				<section>
+					<h2>EDUCATION</h2>
+					<!-- your education -->
+                    <b>YOUR MAJOR</b>
+                    <p>
+                        Your university or school
+                    </p>
+                    <p>
+                        2018-2022
+                    </p>
+				</section>            
+			</article>
+			<article id="mainRight">
+				<section>
+					<h2>ABOUT</h2>
+					<!-- about you -->
+					<p>A brief paragraph about you and what kind of company you want to work for.</p>
+				</section>
+				<section>
+					<h2>WORK EXPERIENCE</h2>
+					<!-- your work experience -->
+                    <h3><b>JOB TITLE</b></h3>
+                    <p>
+                            Company Name | 2008 - 2010
+                    </p>
+                    <p>
+                            Describe what you did in this position with one summary sentence and no more than 3 bullet points with specific highlights
+                    </p>
+                    <ul>
+                            <li>Cool accomplishment</li>
+                            <li>Cool accomplishment</li>
+                            <li>Cool accomplishment</li>
+                    </ul>
+				</section>
+			</article>
+		</main>
+	</body>
 </html>

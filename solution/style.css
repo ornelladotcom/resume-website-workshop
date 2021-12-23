@@ -1,38 +1,52 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
 }
-
 h1 {
-    font-size: 1.4em;
+    font-size: 3em;
+    letter-spacing: .6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    padding-bottom: 1em;
 }
-
-h3 {
-    font-size: 1.1em;
-}
-
-h4 {
-    font-size: 1em;
-}
-
-main {
+main { 
     display: grid;
     grid-template-columns: 40% 60%;
+    margin-top: 3em;
+}
+header {
+    text-align: center;
+    margin: auto 2em;
 }
 
-h1, h2, h3, h4, ul {
-    margin-bottom: .2em;
-    margin-top: .2em;
+section {
+    margin: auto 1em 4em 2em;
 }
 
-article, section {
-    border-radius: .2em;
-    border-style: solid;
-    border-width: .01em;
-    margin: .1em;
-    padding: .3em;
+i {
+    margin-right: .5em;
+}
+
+p {
+    margin: .2em auto
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+h1, h2 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+#mainLeft {
+    border-right: 1px solid lightgray;
 }
