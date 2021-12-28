@@ -10,7 +10,7 @@ When using a tag name for a selector, you use just the name of the tag. Keep in 
 
 > **Note:** The word "cascading" for Cascading Stylesheets applies when multiple styles are used for the same element.
 
-## Adding style to a page
+## Creating your first style sheet
 
 Let's start by adding style to the page. We'll set a couple of properties for the `body` tag to change the font and size.
 
