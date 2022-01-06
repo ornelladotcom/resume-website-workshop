@@ -15,4 +15,4 @@ In this workshop, you will:
 * [Style your resume with CSS](workshop/3-add-style.md)
 * [Create your resume website with GitHub Pages](workshop/4-creating-website.md)
 
-Let's get started!
+Let's [get started!](blob/main/workshop/0-setup.md)!
