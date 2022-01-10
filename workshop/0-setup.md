@@ -2,7 +2,7 @@
 
 As you might expect, the first step to getting started with any new technology is setting up a couple of tools. While it is possible to create HTML and CSS with any text editor, using a code editor will offer features to make your life easier.
 
-We'll be using [github.dev](github.dev), a free, online code editor, for this workshop. If you've ever used [Visual Studio Code](code.visualstudio.com), this code editor may look familar to you. One of the awesome things about using github.dev is that we'll be coding directly in the browser. We'll also add the [CodeSwing](https://marketplace.visualstudio.com/items?itemName=codespaces-Contrib.codeswing) extension, which allows us to make edits to our HTML/CSS and see the results immediately.
+We'll be using [github.dev](github.dev), a free, online code editor, for this workshop. If you've ever used [Visual Studio Code](code.visualstudio.com), this code editor may look familiar to you. One of the awesome things about using github.dev is that we'll be coding directly in the browser. We'll also add the [CodeSwing](https://marketplace.visualstudio.com/items?itemName=codespaces-Contrib.codeswing) extension, which allows us to make edits to our HTML/CSS and see the results immediately.
 
 ## Creating a repository and opening it in github.dev
 
