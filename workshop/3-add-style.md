@@ -103,35 +103,35 @@ In this diagram the content is the text **Hello, world**. `padding` is the space
 
 Add the remaining style rules to add some padding around the elements on your page:
 
-    ```css
-    header {
-        text-align: center;
-        margin: auto 2em;
-    }
+   ```css
+   header {
+       text-align: center;
+       margin: auto 2em;
+   }
 
-    section {
-        margin: auto 1em 4em 2em;
-    }
+   section {
+       margin: auto 1em 4em 2em;
+   }
 
-    i {
-        margin-right: .5em;
-    }
+   i {
+       margin-right: .5em;
+   }
 
-    p {
-        margin: .2em auto
-    }
+   p {
+       margin: .2em auto
+   }
 
-    hr {
-        border: none;
-        background-color: lightgray;
-        height: 1px;
-    }
+   hr {
+       border: none;
+       background-color: lightgray;
+       height: 1px;
+   }
 
-    h1, h2 {
-        font-weight: 100;
-        margin-bottom: 0;
-    }
-    ```
+   h1, h2 {
+       font-weight: 100;
+       margin-bottom: 0;
+   }
+   ```
     
 * We're centering the text in the `header` element and adding a 2em margin to the left and the right so that the lines from the `hr` don't go all the way to the edge, but have a little padding.
 * The `section` element is given some margin so that each section (ABOUT, CONTACT, SKILLS) has spacing around it. The `p` element is also given some margin. 
@@ -147,11 +147,11 @@ Sometimes, you want to style a specific element on a page. For instance, we want
 
 Notice that each of the `article` elements has an id property - "mainLeft" and "mainRight". We can select these elements by their ID in the CSS and style them. So, to add a border to just the left column, add this final rule to your stylesheet:
 
-    ```css
-    #mainLeft {
-        border-right: 1px solid lightgray;
-    }
-    ```
+   ```css
+   #mainLeft {
+      border-right: 1px solid lightgray;
+   }
+   ```
 
 Your resume should look much better now. However, you're still missing some icons in the CONTACT section. For that, we'll need to add an icon font.
 
@@ -161,9 +161,9 @@ An icon font is a font that contains symbols and glyphs instead of letters and n
 
 1. In the **index.html** file, add the following line to the `head` element...
 
-    ```html
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    ```
+   ```html
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   ```
 
 1. This will load the Font Awesome icon font. You should now see some nifty icons next to your CONTACT data.
 
