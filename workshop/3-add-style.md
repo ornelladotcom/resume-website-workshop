@@ -70,26 +70,26 @@ CSS grids are a relatively new feature. Like the name implies, a grid allows you
 
 Let's review the structure of your page:
 
-    ```html
-    <main>
-        <article>
-            Contact info
-        </article>
-        <article>
-            About you & experience
-        </article>
-    </main>
-    ```
+   ```html
+   <main>
+       <article>
+           Contact info
+       </article>
+       <article>
+           About you & experience
+       </article>
+   </main>
+   ```
 
 We want to create two columns, one for the first `article` with your contact info, skills, and education, and the second `article` with your work experience. Notice how both `article` elements are contained inside of a single `main` element. We will use the `main` element as the container for our grid. We will configure `main` to host the grid, and configure two column templates - one for each article.
 
-    ```css
-        main { 
-            display: grid;
-            grid-template-columns: 40% 60%;
-            margin-top: 3em;
-        }
-    ```
+   ```css
+   main { 
+       display: grid;
+       grid-template-columns: 40% 60%;
+       margin-top: 3em;
+   }
+   ```
 
 This will split the `main` element into two columns. The first top-level element under `main` which is an `article` will be the first column and will take up 40% of the available space. The second top-level element under `main` (also an `article`) will take up the remaining 60%.
 
