@@ -9,11 +9,12 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
+    text-transform: uppercase;
 }
-
 h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
+    text-transform: uppercase;
 }
 main { 
     display: grid;
@@ -32,15 +33,18 @@ section {
 i {
     margin-right: .5em;
 }
-
+.firstname {
+    font-weight: bold;
+}
 p {
     margin: .2em auto
 }
 
-hr {
-    border: none;
-    background-color: lightgray;
-    height: 1px;
+header p {
+    padding: .2em 0;
+    border: 1px solid lightgrey;
+    border-width: 1px 0;
+    text-transform: uppercase;
 }
 
 h1, h2 {
